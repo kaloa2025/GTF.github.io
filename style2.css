@@ -268,7 +268,7 @@ a:hover
     }
     tr { display: block; float:none; width:fit-content;}
     td { display: block; float:none; width:fit-content;}
-    table{width:fit-content;;}
+    table{width:fit-content;}
     .info
     {
         width: 100%;
