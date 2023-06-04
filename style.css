@@ -262,7 +262,7 @@ a:hover
         background-color: black;
     }
     tr { display: block; float:none; width:fit-content;}
-    td { display: block; float:none; width:fit-content; text-align:left;}
+    td { display: block; float:none; width:fit-content;}
     table{width:fit-content;}
     .info
     {
