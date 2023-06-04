@@ -275,7 +275,7 @@ a:hover
     }
     .c,.c_st
     {
-        margin-left:6vmin;
+        margin-left:4vmin;
         margin-right: auto;
         width:100%;
         margin-right: 0;
@@ -283,5 +283,9 @@ a:hover
     .c_b,.c_stable
     {
         margin-left:60px;
+    }
+    .i_t
+    {
+        margin-left: 0%;
     }
 }

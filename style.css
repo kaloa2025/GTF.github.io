@@ -270,11 +270,17 @@ a:hover
     }
     .c,.c_st
     {
-        margin-left: 25%;
-        width:auto;
+        margin-left:4vmin;
+        margin-right: auto;
+        width:100%;
+        margin-right: 0;
     }
     .c_b,.c_stable
     {
-        margin-right: 25%;
+        margin-left:60px;
+    }
+    .i_t
+    {
+        margin-left: 0%;
     }
 }
