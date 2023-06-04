@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator - GCD, Totient Function</title>        
+        <link rel="icon" type="image/x-icon" href="logo2.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <table class="base">
+            <tr>
+                <td class="info">
+                    <table class="i_t">
+                        <tr><td><p class="i_title">GREATEST COMMON DIVISOR</p>
+                            <p class="i_heading">GCD: GREATEST COMMON DIVISOR</p>
+                            </td></tr>
+                        <tr><td><p class="i_detail">The greatest common divisor (GCD) of two or more numbers is the greatest common factor number that divides them, exactly.
+                            It is also called the highest common factor (HCF). <br>
+                            A simple way to find GCD is to factorize both numbers and multiply common prime factors.
+                            <b>The Euclidean algorithm</b> a way to find the greatest common divisor of two positive integers.
+                            <br>If A = B⋅Q + R and B≠0 then GCD(A,B) = GCD(B,R) where Q is an integer, R is an integer between 0 and B-1
+                        </p>
+                            <p class="i_ex">SEE <a href="https://math.libretexts.org/Courses/Monroe_Community_College/MTH_220_Discrete_Math/3%3A_Proof_Techniques/3.5%3A_The_Euclidean_Algorithm" target="_blank" class="a">EXAMPLES</a></p>
+                            </td></tr>
+                        <tr><td class="i_but" onclick="highlight(enter)"><br>SOLVE</td></tr>
+                    </table>
+                   <p class="credit"><a href = "mailto: choudharias@rknec" target="_blank">@ Aalok C</a></p>
+                </td>
+
+                <td class="calc">
+                    <button class="c_b" onclick="document.location='\ totient.html'">&#8709-Calculator</button>
+                    <table class="c" >
+                        <div>
+                            <form name="calculator" onsubmit="return validate()">
+                        <tr><td class="c_t1" colspan="2">GREATEST COMMON DIVISOR</td></tr>
+                        <tr><td class="c_t2" colspan="2" id="enter">Enter two numbers a,b:</td></tr>
+
+                        <tr><td class="c_label">a</td>
+                            <td><input type="number" class="c_ip" id="a" min="1"></td></tr>
+                        <tr><td class="c_label">b</td>
+                            <td><input type="number" class="c_ip" id="b" min="1"></td></tr>
+
+                        <tr><td align="left"><input type="submit" value="SOLVE" class="csub" onclick="cal()"></td>
+                            <td align="right"><button value="RESET" class="c2_button" onclick="set()">RESET</button></td></tr>
+
+                        <tr><td class="c_p" colspan="2">GCD :</td></tr>
+                        <tr><td colspan="2"><input type="number" id="box" disabled class="c_op"></td></tr>
+                    </form>
+                    </div>
+                    </table>
+
+                    <p class="c_st">Share This Calculator</p>
+                    <table class="c_stable">
+                        <tr>
+                            <td colspan="2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href = "https://www.instagram.com" target="_blank"><img src = "insta.png"class="c_img"></a></td>
+                            <td><a href = "https://www.github.com/kaloa2025.com" target="_blank"><img src = "git.png"class="c_img"></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
